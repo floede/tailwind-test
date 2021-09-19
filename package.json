@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "tw-build": "postcss --use autoprefixer -o css/styles.css css/tailwind.css",
+    "tw-watch": "postcss --use autoprefixer -o css/styles.css css/tailwind.css -w"
+  },
   "devDependencies": {
     "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
